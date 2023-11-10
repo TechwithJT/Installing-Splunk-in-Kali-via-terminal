@@ -1,0 +1,1 @@
+# Installing-Splunk-in-Kali-via-terminal
