@@ -1,29 +1,31 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>How To Install Splunk On Kali Linux</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this lab i will be showing you how to install Splunk on a kali linux machine via the linux terminal 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Kali Linux install file </b>
+- <b>Oracle Virtual Box</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Kali Linux</b>
 
-<h2>Program walk-through:</h2>
+<h2>Download the kali linux package using the link below</h2>
+
+<a href="https://www.splunk.com/en_us/download/splunk-enterprise.html">Splunk Install</a>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+When on this screen download the debian flavor of splunk: <br/>
+<img src="https://i.imgur.com/2S5Rtzf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
+Once downloaded open up a terminal shell in kali:  <br/>
+ - <b>Type the ls command to "list the contents of a directory or folder"</b>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
