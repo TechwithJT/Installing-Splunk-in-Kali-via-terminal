@@ -25,12 +25,12 @@ When on this screen download the debian flavor of splunk: <br/>
 <br />
 <br />
 Once downloaded open up a terminal shell in kali:  <br/>
- - <b>Type the ls command to "list the contents of a directory or folder"</b>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ - <b>Type the ls command to "list the contents of a directory or folder and follow the commands below to confirm the download"</b>
+<img src="https://i.imgur.com/NLcmjaj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After confirming the splunk is in the download folder lets install using the command below: <br/>
+<img src="https://i.imgur.com/FVRgGEs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
