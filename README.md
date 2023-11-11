@@ -33,20 +33,41 @@ After confirming the splunk is in the download folder lets install using the com
 <img src="https://i.imgur.com/FVRgGEs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After running splunk will attempt to install and it should say "unpacking splunk" and just wait:  <br/>
+<img src="https://i.imgur.com/wWXQmcU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Wait for process to complete (may take some time) it should look like below:  <br/>
+<img src="https://i.imgur.com/Bg7CgBZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />After installing clear the command line using the "clear Command" and rung the "ls /opt command" you should see a fold named splunk:  <br/>
+<img src="https://i.imgur.com/aEo2Czr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Starting the splunk service use the following command:  <br/>
+ - <b>Just Hold the enter key to get passed the terms of service document and at he end it will ask you to agree to it type y and proceed</b>
+<img src="https://i.imgur.com/1EqiXgq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Splunk will then attempt to load the web GUI interface for us to login to :  <br/>
+<img src="https://i.imgur.com/E6DUhSJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+<br />
+Open up a web browser and type "https://kali:8000" it should bring you to a splunk login screen :  <br/>
+ - <b>Note During install process it will prompt you to setup a username and password for this screen</b>
+<img src="https://i.imgur.com/7ZarInb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+<br />
+Now you should be logged into Splunk where you can make configurations, install forwarders, or just tamper in a safe environment :  <br/>
+ 
+ - <b>Have Fun</b>
+<img src="https://i.imgur.com/Ahcsorv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 </p>
 
 <!--
